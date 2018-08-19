@@ -1,0 +1,14 @@
+.client-reviews{
+	font-size: 16px;
+
+}
+.speach{
+	margin: 10px auto;
+	display: block;
+	border: 1px solid red;
+	margin-left: 100px;
+	position: absolute;
+	left: 300px;
+	top:20px;
+
+}

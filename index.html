@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/css; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>ITAEM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="skins/eden.css" media="screen">
+    <link rel="stylesheet" href="style.css" media="screen">
+    <link href="fonts/icons/icons.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+</head>
+<body   data-spy="scroll" data-target="#topnav"  id="top">
+    <section class="header-area-home" id="header-area-home">
+    <!-- 导航 -->  
+         <div id="main-nav-container">
+            <div  class="container">
+            <nav class="navbar navbar-eden" id="topnav">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#main-menu">
+                            <span class="sr-only"></span>
+                            <i class="tn-menu"></i>
+                        </button> 
+                        <a class="navbar-brand" href="#"><img src="imgs/logo.png" /></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="main-menu">
+                        <ul class="nav navbar-nav"> 
+                            <li class="active"><a href="#top">首页</a></li>
+                             <li><a href="#team-intro">团队介绍</a></li>
+                            <li><a href="#client-reviews">团队风采</a></li>
+                            <li><a href="#out-team">团队成员</a></li>
+                            <li><a href="#pricing">获奖情况</a></li>
+                            <li><a href="#why-us">作品简介</a></li>
+                            <li><a href="#curious">交流社区</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            </div>
+        </div> 
+        <!-- 主页 -->
+        <div id="featured-slider-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="featured-slider" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#featured-slider" data-slide-to="0" class="active"><img src='imgs/slider02.png' alt='' class='featured-slide-thumb'  /></li>
+                                <li data-target="#featured-slider" data-slide-to="1" ><img src='imgs/slid.png' alt='' class='featured-slide-thumb'  /></li>
+                                <li data-target="#featured-slider" data-slide-to="2" ><img src='imgs/design-01.png' alt='' class='featured-slide-thumb'  /></li>
+                                 <li data-target="#featured-slider" data-slide-to="3" ><img src='imgs/slider_03.png' alt='' class='featured-slide-thumb'  /></li>
+                                 <li data-target="#featured-slider" data-slide-to="4" ><img src='imgs/slider_04.png' alt='' class='featured-slide-thumb'  /></li>
+
+                            </ol>                                          
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active" id="slide-2">
+                                    <img src='imgs/slide-01.png' alt='' class='featured-slide inv' data-animation = 'animated zoomIn' data-delay = '0.3s' />
+                                    <img src='imgs/slid-02.png' alt='' class='featured-slide featured-slide-1 inv' data-animation = 'animated zoomIn' data-delay = '0.7s' />
+                                    <div class="carousel-caption">
+                                        <span class="lead slide-cat inv"  data-animation="animated zoomIn"><a href="#" rel="category">JavaEE</a></span>
+                                        <h2 class="slide-title inv"  data-animation="animated fadeInUp" data-duration="2s" data-delay="1s">JavaEE后台</h2>
+                                        <div class="slide-excerpt inv" data-animation="animated fadeInUp" data-duration="3s" data-delay="2s">
+                                            <ul class="row">
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2s'>掌握jsp</li>
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2.1s'>熟悉serlet</li>
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2.2s'>灵活使用框架</li>
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2.3s'>精通Javascript</li>
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2.4s'>了解html+css</li>
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2.5s'>有逻辑思维，思想</li>
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2.6s'>熟练使用数据库</li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item" id="slide-3">
+                                    <img src='imgs/design.png' alt='' class='featured-slide inv' data-animation = 'animated zoomIn' data-delay = '0.3s' />
+                                    <img src='imgs/slide-01.png' alt='' class='featured-slide featured-slide-1 inv' data-animation = 'animated zoomIn' data-delay = '0.7s' />
+                                    <div class="carousel-caption">
+                                        <span class="lead slide-cat inv"  data-animation="animated zoomIn"><a href="#" rel="category">Android</a></span>
+                                        <h2 class="slide-title inv"  data-animation="animated fadeInUp" data-duration="2s" data-delay="1s">安卓APP开发</h2>
+                                        <div class="slide-excerpt inv" data-animation="animated fadeInUp" data-duration="3s" data-delay="2s">
+                                            <ul class="row">
+                                                <li class="col-lg-6" data-animation = 'animated fadeInLeft' data-delay = '2s'>具备一定的Java基础</li>
+                                                <li class="col-lg-6" data-animation = 'animated fadeInLeft' data-delay = '2.1s'>熟悉安卓的开发环境</li>
+                                                <li class="col-lg-6" data-animation = 'animated fadeInLeft' data-delay = '2.2s'>认识常见的api接口，组件</li>
+                                                <li class="col-lg-6" data-animation = 'animated fadeInLeft' data-delay = '2.3s'>有想法，有创新思维</li>
+
+                                            </ul>
+                                        </div>
+            
+                                    </div>
+                                </div>
+                                <div class="item" id="slide-4">
+                                    <img src='imgs/slid-02.png' alt='' class='featured-slide inv' data-animation = 'animated zoomIn' data-delay = '0.3s' />
+                                    <img src='imgs/design.png' alt='' class='featured-slide featured-slide-1 inv' data-animation = 'animated zoomIn' data-delay = '0.7s' />
+                                    <div class="carousel-caption">
+                                        <span class="lead slide-cat inv"  data-animation="animated zoomIn"><a href="#" rel="category">美工</a></span>
+                                        <h2 class="slide-title inv"  data-animation="animated fadeInUp" data-duration="2s" data-delay="1s">美化网站的外表</h2>
+                                        <div class="slide-excerpt inv" data-animation="animated fadeInUp" data-duration="3s" data-delay="2s">
+                                            <ul class="row">
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2s'>有一定的美术基础</li>
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2.1s'>精通Photoshop</li>
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2.2s'>掌握Javascript</li>
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2.3s'>熟悉div+css布局</li>
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2.4s'>熟悉使用HTML语言</li>
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2.5s'>了解Jquery</li>
+
+                                            </ul>
+                                        </div>
+
+
+                                    </div>
+                                        
+                                     </div>
+                                     <div class="item" id="slide-3">
+                                    <img src='imgs/design.png' alt='' class='featured-slide inv' data-animation = 'animated zoomIn' data-delay = '0.3s' />
+                                    <img src='imgs/slid_03.png' alt='' class='featured-slide featured-slide-1 inv' data-animation = 'animated zoomIn' data-delay = '0.7s' />
+                                    <div class="carousel-caption">
+                                        <span class="lead slide-cat inv"  data-animation="animated zoomIn"><a href="#" rel="category">算法</a></span>
+                                        <h2 class="slide-title inv"  data-animation="animated fadeInUp" data-duration="2s" data-delay="1s">数据结构</h2>
+                                        <div class="slide-excerpt inv" data-animation="animated fadeInUp" data-duration="3s" data-delay="2s">
+                                            <ul class="row">
+                                                <li class="col-lg-6" data-animation = 'animated fadeInLeft' data-delay = '2s'>熟练掌握数据结构</li>
+                                                <li class="col-lg-6" data-animation = 'animated fadeInLeft' data-delay = '2.1s'>掌握基本的算法设计思想</li>
+                        
+                                            </ul>
+                                        </div>
+            
+                                    </div>
+                                </div>
+                                <div class="item" id="slide-4">
+                                    <img src='imgs/slid_03.png' alt='' class='featured-slide inv' data-animation = 'animated zoomIn' data-delay = '0.3s' />
+                                    <img src='imgs/slid_04.png' alt='' class='featured-slide featured-slide-1 inv' data-animation = 'animated zoomIn' data-delay = '0.7s' />
+                                    <div class="carousel-caption">
+                                        <span class="lead slide-cat inv"  data-animation="animated zoomIn"><a href="#" rel="category">网页前端</a></span>
+                                        <h2 class="slide-title inv"  data-animation="animated fadeInUp" data-duration="2s" data-delay="1s">视觉和交互师</h2>
+                                        <div class="slide-excerpt inv" data-animation="animated fadeInUp" data-duration="3s" data-delay="2s">
+                                            <ul class="row">
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2s'>熟悉html+css</li>
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2.1s'>精通javascript</li>
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2.2s'>掌握ajax</li>
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2.4s'>API接口</li>
+                                                
+
+                                            </ul>
+                                        </div>
+
+
+                                    </div>
+                                        
+                                     </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <section class="featured-content-area" id="featured-content-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="panel panel-success panel-featured-content  text-center">
+                        <div class="panel-heading">JavaEE后台</div>
+                        <div class="panel-body">
+                            <div class="diamond filled bg-success wow zoomIn" data-wow-delay="500ms">
+                             <i class="lineicon tn-desktop"></i> 
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-info panel-featured-content  text-center">
+                        <div class="panel-heading">网页前端</div>
+                        <div class="panel-body">
+                            <div class="diamond filled bg-info wow zoomIn" data-wow-delay="900ms" >
+                                <i class="lineicon tn-world"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-primary panel-featured-content  text-center">
+                        <div class="panel-heading">安卓APP开发</div>
+                        <div class="panel-body">
+                            <div class="diamond filled  bg-primary wow zoomIn" data-wow-delay="1300ms" >
+                                <i class="lineicon tn-android"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-warning panel-featured-content  text-center">
+                        <div class="panel-heading">美工</div>
+                        <div class="panel-body">
+                            <div class="diamond filled bg-warning wow zoomIn" data-wow-delay="1700ms" >
+                                <i class="lineicon tn-brush"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+	 <div class="copyrights"></div>
+     <!-- 团队介绍 -->
+     <section class="why-us" id="team-intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center section-intro">
+                    <h2 class="header-boxed wow zoomIn" data-wow-iteration="1"><span>团队介绍</span></h2>
+                    <p class="lead wow fadeInUp"  data-wow-delay="600ms">团队一路走来的历程</p>
+                </div> 
+                <div class="col-md-12 highlight-boxes">
+                <div class="col-md-4 wow fadeInLeft" data-wow-delay="500ms">
+                    <div class="featured-content-box text-center">
+                        <img class="img-circle img-responsive" src="imgs/our_team1.png" alt="ITAEM">
+                        <h3>简介</h3>
+                        <p>ITAEM团队成立于2011年，是一个以学习和探索为主的团队。在这五年里，我们的团队规模不断壮大，吸引了越来越多志同道合的同学加入，并一起为相同的目标学习、奋斗。在团队的时光里，队员们互相学习，共同提升，这使得队员们在毕业后都能在自己的技术领域中独当一面。</p>
+
+                    </div>
+                </div>
+                <div class="col-md-4 wow zoomIn" data-wow-delay="100ms">
+                    <div class="featured-content-box text-center">
+                         <img class="img-circle img-responsive" src="imgs/our_team.png" alt="ITAEM">
+
+                        <h3>成果</h3>
+                        <p>ITAEM成立至今，团队成员参与、独立开发过许多来自广东海洋大学内、外各领域的计算
+                            机和移动端应用，其中包括海大青年便携阅读版面模块、财务报账系统、专项资金管理平
+                            台、微信工具开发、LBS交友平台、桌面小甄姬、时光机、网站后台自动生成器等。</p>
+                       
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInRight" data-wow-delay="500ms">
+                    <div class="featured-content-box text-center">
+                         <img class="img-circle img-responsive" src="imgs/our_team2.png" alt="ITAEM">
+                        <h3>比赛</h3>
+                        <p>在刚刚结束的第七届蓝桥杯比赛中，团队更是有8人获得省级奖项，5人获得国家级奖项；而在2015年“甲骨文杯”全国JAVA程序设计大赛中，团队荣获华南赛区A组三等奖；在第三届“发现杯”全国大学生互联网软件设计大赛中，我们的队伍也取得了初赛二等奖的良好成绩。</p>
+                       
+                    </div>
+                </div>                                                       
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- 团队风采 -->
+    <section class="client-reviews" id="client-reviews">
+         <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center section-intro">
+                <h2 class="header-boxed wow zoomIn" data-wow-iteration="1"><span>团队风采</span></h2>
+                <p class="lead wow fadeInUp"  data-wow-delay="600ms">浓郁的学习氛围</p>
+                </div>
+                <div class="col-md-12 team">
+                    <div class="col-md-4 wow fadeInLeft" data-wow-delay="500ms">
+                        <div class="featured text-center">
+                            <figure>
+                                <img class="img-responsive" src="imgs/game.jpg" alt="ITAEM">
+                                <figcaption>杭州参加国赛</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                <div class="col-md-4 wow zoomIn" data-wow-delay="100ms">
+                    <div class="featured text-center">
+                        <figure>
+                            <img class="img-responsive" src="imgs/out.jpg" alt="ITAEM">   
+                            <figcaption>一起玩狼人杀</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInRight" data-wow-delay="500ms">
+                    <div class="featured text-center">
+                        <figure>
+                         <img class="img-responsive" src="imgs/envir0.jpg" alt="ITAEM">
+                         <figcaption>认真学习中</figcaption>
+                       </figure>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInRight" data-wow-delay="500ms">
+                    <div class="featured text-center">
+                        <figure>
+                        <img class="img-responsive" src="imgs/envir1.jpg" alt="ITAEM">
+                        <figcaption>安静、舒适的学习环境</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-md-4 wow zoomIn" data-wow-delay="100ms">
+                    <div class="featured text-center">
+                        <figure>
+                         <img class="img-responsive" src="imgs/5.png" alt="ITAEM">   
+                        <figcaption>团队定期购买的书</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInRight" data-wow-delay="500ms">
+                    <div class="featured text-center">
+                        <figure>
+                         <img class="img-responsive" src="imgs/3.png" alt="ITAEM">
+                         <figcaption>团队一起过中秋，吃月饼</figcaption>
+                       </figure>
+                    </div>
+                </div>                                                                
+                </div>
+        </div>
+        </div>
+    </section>
+    <!-- 团队成员 -->
+     <section class="out-team" id="out-team" >
+    <div class="container">
+    <div class="row">
+    <div class="col-md-12 text-center section-intro">
+        <h2 class="header-boxed wow zoomIn" data-wow-iteration="1"><span>团队成员</span></h2>
+        <p class="lead wow fadeInUp"  data-wow-delay="600ms">优秀的团队成员</p>
+    </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="panel panel-default panel-card row2">
+                    <div class="panel-heading">
+                        <img src="bg/chao.jpg" />
+                        <!-- <button class="btn btn-primary btn-sm" role="button">更多</button> -->
+                    </div>
+                    <div class="panel-figure">
+                        <img class="img-responsive img-circle" src="imgs/zen.png" />
+                    </div>
+                    <div class="panel-body text-center">
+                        <h4 class="panel-header"><a href="bg/chao.jpg">曾亮辉（队长）</a></h4>
+                        <small>生活是一面镜子，你对它笑，它就对你笑；你对它哭，它也对你哭</small>
+                    </div>
+                    <div class="panel-thumbnails">
+                        <hr/>
+                        <div class="row">
+                            <small>主要发展方向：网站后台、安卓、算法设计</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-6 col-md-4">
+                <div class="panel panel-default panel-card">
+                    <div class="panel-heading">
+                        <img src="bg/yi.jpg" />
+                        <!-- <button class="btn btn-primary btn-sm" role="button">更多</button> -->
+                    </div>
+                    <div class="panel-figure">
+                        <img class="img-responsive img-circle" src="imgs/huan.jpg" />
+                    </div>
+                    <div class="panel-body text-center">
+                        <h4 class="panel-header"><a href="https://twitter.com/w3eden">陈维欢</a></h4>
+                        <small>一个好的程序员是那种过单行线马路都要往两边看的人。fighting...</small>
+                    </div>
+                    <div class="panel-thumbnails">
+                        <hr/>
+                        <div class="row">
+                            <small>主要发展方向：网页前端</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="panel panel-default panel-card">
+                    <div class="panel-heading">
+                        <img src="bg/mei1.jpg"/>
+                        <!-- <button class="btn btn-primary btn-sm" role="button">更多</button> -->
+                    </div>
+                    <div class="panel-figure">
+                        <img class="img-responsive img-circle" src="imgs/yan.jpg" />
+                    </div>
+                    <div class="panel-body text-center">
+                        <h4 class="panel-header"><a href="https://twitter.com/w3eden">吴燕璇</a></h4>
+                        <small>何须浅碧轻红色，自是花中第一流</small>
+                    </div>
+                    <div class="panel-thumbnails">
+                        <hr/>
+                        <div class="row">                            
+                                <small>主要发展方向：网页前端、UI设计</small>            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="panel panel-default panel-card">
+                    <div class="panel-heading">
+                        <img src="bg/hui.png" />
+                        <!-- <button class="btn btn-primary btn-sm" role="button">更多</button> -->
+                    </div>
+                    <div class="panel-figure">
+                        <img class="img-responsive img-circle" src="imgs/jie.jpg" />
+                    </div>
+                    <div class="panel-body text-center">
+                        <h4 class="panel-header"><a href="https://twitter.com/w3eden">梁广杰</a></h4>
+                        <small>人生无SL</small>
+                    </div>
+                    <div class="panel-thumbnails">
+                        <hr/>
+                        <div class="row">
+                            <small>主要发展方向：网站后台、安卓</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="panel panel-default panel-card row2">
+                <div class="panel-heading">
+                    <img src="bg/zen.jpg" />
+                    <!-- <button class="btn btn-primary btn-sm" role="button">更多</button> -->
+                </div>
+                <div class="panel-figure">
+                    <img class="img-responsive img-circle" src="imgs/sao.jpg" />
+                </div>
+                <div class="panel-body text-center">
+                    <h4 class="panel-header"><a href="#">杜文华</a></h4>
+                    <small>努力一定有回报，但你必须重新站起来</small>
+                </div>
+                <div class="panel-thumbnails">
+                    <hr/>
+                    <div class="row">
+                        <small>主要发展方向：网页前端</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="panel panel-default panel-card row2">
+            <div class="panel-heading">
+                <img src="bg/yuan.jpg" />
+                <!-- <button class="btn btn-primary btn-sm" role="button">更多</button> -->
+            </div>
+            <div class="panel-figure">
+                <img class="img-responsive img-circle" src="imgs/liao.jpg" />
+            </div>
+            <div class="panel-body text-center">
+                <h4 class="panel-header"><a href="https://twitter.com/w3eden">廖世通</a></h4>
+                <small>我很帅，我很叼</small>
+            </div>
+            <div class="panel-thumbnails">
+                <hr/>
+                <div class="row">
+                    <small>主要发展方向：网站后台</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4" margin-top="10px">
+                <div class="panel panel-default panel-card row2">
+                    <div class="panel-heading">
+                        <img src="bg/guan.jpg" />
+                        <!-- <button class="btn btn-primary btn-sm" role="button">更多</button> -->
+                    </div>
+                    <div class="panel-figure">
+                        <img class="img-responsive img-circle" src="imgs/si.jpg" />
+                    </div>
+                    <div class="panel-body text-center">
+                        <h4 class="panel-header"><a href="https://twitter.com/w3eden">关司平</a></h4>
+                        <small>走自己的路，让别人说去吧！</small>
+                    </div>
+                    <div class="panel-thumbnails">
+                        <hr/>
+                        <div class="row">
+                            <small>主要发展方向：安卓开发</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="panel panel-default panel-card row2">
+                <div class="panel-heading">
+                    <img src="bg/yu.jpg" />
+                    <!-- <button class="btn btn-primary btn-sm" role="button">更多</button> -->
+                </div>
+                <div class="panel-figure">
+                    <img class="img-responsive img-circle" src="imgs/jin.jpg" />
+                </div>
+                <div class="panel-body text-center">
+                    <h4 class="panel-header"><a href="#">陆晋晖</a></h4>
+                    <small>认真学习的每一刻都让人愉快，因为天气很好，因为天气不好，因为天气刚刚好，每一刻我都很喜欢</small>
+                </div>
+                <div class="panel-thumbnails">
+                    <hr/>
+                    <div class="row">
+                       <small>主要发展方向：安卓开发</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="panel panel-default panel-card row2">
+            <div class="panel-heading">
+                <img src="bg/xin.jpg"/>
+                <!-- <button class="btn btn-primary btn-sm" role="button">更多</button> -->
+            </div>
+            <div class="panel-figure">
+                <img class="img-responsive img-circle" src="imgs/xin.png" />
+            </div>
+            <div class="panel-body text-center">
+                <h4 class="panel-header"><a href="https://twitter.com/w3eden">廖信达</a></h4>
+                <small>只有了解差距，才能缩短差距</small>
+            </div>
+            <div class="panel-thumbnails">
+                <hr/>
+                <div class="row">
+                    <small>主要发展方向：算法设计、网站后台</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <!-- 获奖情况 -->
+    <section class="pricing" id="pricing">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-12 text-center section-intro">
+        <h2 class="header-boxed  wow zoomIn" data-wow-iteration="1"><span>获奖情况</span></h2>
+        <p class="lead wow fadeInUp" data-wow-delay="200ms">近两年获奖状况</p>
+    </div>
+    <div class="col-md-12">
+        <div class="col-md-6 pricing-table-block wow fadeInLeft">
+            <div class="col-md-6 tb-left text-center">
+                <h5 class="text-light">微信平台设计</h5>
+                <h3>一等奖</h3>
+                <p><i class="tn-star text-light"></i><i class="tn-star text-light"></i><i class="tn-star text-light"></i><i class="tn-star text-light"></i><i class="tn-star text-light"></i></p>
+                <!-- <p class="pac-info">何伟生、林恒</p> -->                
+            </div>
+            <div class="col-md-6 tb-right">
+                <img  src="award/first.png"> 
+            </div>
+        </div>
+        <div class="col-md-6 pricing-table-block wow fadeInRight">
+            <div class="col-md-6 tb-left text-center">
+                <h5 class="text-info">互联网软件设计</h5>
+                <h3>二等奖</h3> 
+                 <p><i class="tn-star text-info"></i><i class="tn-star text-info"></i><i class="tn-star text-info"></i><i class="tn-star text-info"></i><i class="tn-star text-info"></i></p>
+                 <!-- <p class="pac-info">梁浩辉，林恒、曾宪泉</p> -->
+            </div>
+            <div class="col-md-6 tb-right">
+                <img src="award/second.png">
+            </div>
+        </div>
+        <div class="col-md-6 pricing-table-block wow fadeInUp" data-wow-delay="100ms">
+            <div class="col-md-6 tb-left text-center">
+                <h5 class="text-warning">“粤港澳”移动互联网创新设计大赛</h5>
+                <h3>三等奖</h3>
+                 <p><i class="tn-star text-warning"></i><i class="tn-star text-warning"></i><i class="tn-star text-warning"></i><i class="tn-star text-warning"></i><i class="tn-star text-warning"></i></p>
+                 <!-- <p class="pac-info">梁浩辉、丘瑞豪、林恒等</p> -->
+            </div>
+            <div class="col-md-6 tb-right">
+                <img src="award/third.png">
+            </div>
+        </div>
+        <div class="col-md-6 pricing-table-block wow fadeInUp" data-wow-delay="200ms">
+            <div class="col-md-6 tb-left text-center">
+                <h5 class="text-success">各种比赛</h5>
+                <h3>优异成绩</h3>
+                 <p><i class="tn-star text-success"></i><i class="tn-star  text-success"></i><i class="tn-star  text-success"></i><i class="tn-star  text-success"></i><i class="tn-star  text-success"></i></p>
+                 <!-- <p class="pac-info">ITAEM成员</p> -->
+            </div>
+            <div class="col-md-6 tb-right">
+                <img src="award/fo.png">
+            </div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+    </section>
+
+    <!-- 作品简介 -->
+    <section class="why-us" id="why-us">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center section-intro">
+                    <h2 class="header-boxed wow zoomIn" data-wow-iteration="1"><span>作品简介</span></h2>
+                    <p class="lead wow fadeInUp"  data-wow-delay="600ms">团队成立以来一些有代表性的作品</p>
+                </div>
+                <div class="col-md-12 highlight-boxes">
+                <div class="col-md-4 wow fadeInLeft" data-wow-delay="500ms">
+                    <div class="featured-content-box text-center">
+                        <h3> 智能词典</h3>
+                         <p>一款以语音操作为主的英文查词APP，以语音驱动完成使用.</p>
+                        <img src="imgs/zhi.png"  width="80%" height="10%">
+                        
+                    </div>
+                </div>
+                <div class="col-md-4 wow zoomIn" data-wow-delay="100ms">
+                    <div class="featured-content-box text-center">
+                        <h3>易传</h3>
+                        <p>一款面对面高速文件传输软件。传输终端支持安卓，ios和PC端.</p>
+                        <img src="achievement/file.png" width="80%" height="10%">
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInRight" data-wow-delay="500ms">
+                    <div class="featured-content-box text-center">
+                        <h3>时光机</h3>
+                        <p>“时光机”是一款完全公开的地理位置及个人动态分享软件.</p>
+                        <img src="achievement/time.png" width="80%" height="10%">
+                    </div>
+                </div>
+                    <div class="col-md-4 wow fadeInUp">
+                        <div class="featured-content-box text-center">
+
+                            <h3>专项资金管理系统 </h3>
+                            <!--< p>Never study for others what you would not capture for the freedom of it.</p> -->
+                            <img src="achievement/admin.png" width="100%" height="100%">
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="300ms">
+                        <div class="featured-content-box text-center">
+
+                            <h3>复退军人管理系统 </h3>
+                            <!-- <p>Never study for others what you would not capture for the freedom of it.</p> -->
+                            <img src="achievement/solider.png" width="100%" height="100%">
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
+                        <div class="featured-content-box text-center">
+
+                            <h3>网上缴费系统 </h3>
+                            <img src="achievement/fees.png" width="100%" height="100%">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+    <!-- 交流社区 -->
+    <section class="curious" id="curious">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-12 text-center section-intro">
+        <h2 class="header-boxed wow zoomIn" data-wow-iteration="1"><span>交流社区</span></h2>
+        <p class="lead">在这里尽情发表你的言论</p>
+    </div>
+        <div class="col-md-6">
+            <div class="contact-form wow fadeInLeft">
+            <form class="row" method="get" action="">
+                <div class="col-md-6">
+                    <div class="form-group"><label>名字<i class="fa fa-asterisk"></i></label> <input type="text" name="name" class="form-control"></div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group"><label>邮箱<i class="fa fa-asterisk"></i></label> <input type="email" name="email" class="form-control"></div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group"><label>内容</label> <textarea name="message" rows="6" class="form-control"></textarea></div>
+                    <div class="send_result"></div>
+                </div>
+                <div class="col-md-12"><input type="submit" value="发表" class="btn btn-primary btn-lg btn-block" name="submit">
+                </div>
+            </form>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="featured-content-box text-center wow fadeInDown">
+                <div class="circle feature-icon">
+                    <i class="tn-comments-smiley"></i>
+                </div>
+
+                <h3>ITAEM团队qq交流群</h3>
+                <p>617051777</p>
+
+            </div>
+
+            <div class="featured-content-box text-center wow fadeInUp">
+                <div class="circle feature-icon">
+                    <i class="tn-email"></i>
+                </div>
+
+                <h3>ITAEM团队邮箱</h3>
+                <p>ITAEM_2016@163.com</p>
+
+            </div>
+
+        </div>
+        <div class="col-md-3">
+            <div class="panel panel-default panel-subscribe panel-subscribe-narrow panel-subscribe-light panel-subscribe-vert wow fadeInRight">
+                <div class="panel-body">
+                    <div class="media text-center">
+                        <img src="imgs/email2.png">
+                        <div class="media-body">
+                            <h3>点击报名，优秀的你快加入我们吧！</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-footer">
+
+                    <form>
+                         <div class="form-group">
+                            <!-- <input type="button" id="fname1" class="form-control" value="报名">  -->
+                            <input type="button" value="报名" class="btn btn-primary btn-lg btn-block" name="button" onclick="location.href='#'">
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </section>
+    <!-- 页脚 -->
+    <footer>
+    <div class="container">
+    <div class="row">
+    <div class="col-md-12 text-center section-intro">
+        <h3>版权信息</h3>
+        <p>ITAEM团队所有</p>
+    </div>
+    </div>
+    </div>
+        <br/><br/> 
+    </footer>
+
+
+<canvas id="canvas" style="display:block;position:absolute;top:10%;left:30%"></canvas>
+<script type="text/javascript" color="27,206,173" opacity='1' zIndex="-100"  src="js/canvas-nest.min.js"></script>
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/site.js"></script>
+<script>
+$(function () {
+    var Sys = {};
+    var ua = navigator.userAgent.toLowerCase();
+    var s;
+    (s = ua.match(/rv:([\d.]+)\) like gecko/)) ? Sys.ie = s[1] :
+    (s = ua.match(/msie ([\d.]+)/)) ? Sys.ie = s[1] :
+    (s = ua.match(/firefox\/([\d.]+)/)) ? Sys.firefox = s[1] :
+    (s = ua.match(/chrome\/([\d.]+)/)) ? Sys.chrome = s[1] :
+    (s = ua.match(/opera.([\d.]+)/)) ? Sys.opera = s[1] :
+    (s = ua.match(/version\/([\d.]+).*safari/)) ? Sys.safari = s[1] : 0;
+    
+    if (Sys.ie){
+    $('body').on("mousewheel", function () {
+      event.preventDefault();
+      var wd = event.wheelDelta;
+      var csp = window.pageYOffset;
+      window.scrollTo(0, csp - wd);
+    });
+    }
+});
+</script>
+</body>
+</html>
